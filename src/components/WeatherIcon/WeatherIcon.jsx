@@ -1,5 +1,4 @@
-const WeatherIcon = (props) => {
-    const { img, imgAlt } = props
+const WeatherIcon = ({ img, imgAlt }) => {
     return (
         <img src={img} alt={imgAlt} />
     )

@@ -1,5 +1,5 @@
 const WeatherData = (props) => {
-    const { conditions, time } = props
+    const { day, conditions, time } = props
     return (
         <>
             <h2>{day}</h2>
